@@ -1,5 +1,6 @@
 package io.github.finbotic.firstmod;
 
+import jdk.jfr.Event;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
@@ -26,8 +27,8 @@ public class FirstMod implements ModInitializer {
 			.hunger(4)
 			.saturationModifier(2.4f)
 			.alwaysEdible()
-			.statusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 120), 1f)
-			.statusEffect(new StatusEffectInstance(StatusEffects.INSTANT_HEALTH, 0), 1f)
+			.statusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 2400), 1f)
+			.statusEffect(new StatusEffectInstance(StatusEffects.INSTANT_HEALTH), 1f)
 			.build()
 	));
 
