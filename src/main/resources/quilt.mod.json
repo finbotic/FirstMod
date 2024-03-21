@@ -1,25 +1,25 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "${group}",
-		"id": "example_mod",
-		"version": "${version}",
+		"group": "io.github.finbotic",
+		"id": "firstmod",
+		"version": "0.0.1",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "finn's first mod",
+			"description": "the first of many, one could hope.",
 			"contributors": {
-				"Your name here": "Owner"
+				"finbotic, a terrible amalgam of twink and cryptid": "code fabricator"
 			},
 			"contact": {
-				"homepage": "https://example.com/",
+				"homepage": "https://github.com/finbotic/FirstMod-mod",
 				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+				"sources": "https://github.com/finbotic/FirstMod-mod"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/firstmod/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "io.github.finbotic.firstmod.FirstMod"
 		},
 		"depends": [
 			{
@@ -36,5 +36,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "firstmod.mixins.json"
 }
