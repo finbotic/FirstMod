@@ -1,5 +1,7 @@
 {
   "item.firstmod.first_item": "First Item",
   "item.firstmod.silver_ingot": "Silver Ingot",
-  "item.firstmod.silver_apple": "Silver Apple"
+  "item.firstmod.silver_apple": "Silver Apple",
+  "effect.firstmod.mortality": "Mortality",
+  "enchantment.firstmod.mortalityenchantment": "Mortality"
 }

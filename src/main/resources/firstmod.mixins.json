@@ -1,13 +1,16 @@
 {
-	"required": true,
-	"minVersion": "0.8",
-	"package": "io.github.finbotic.firstmod.mixin",
-	"compatibilityLevel": "JAVA_17",
-	"mixins": [],
-	"client": [
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.finbotic.firstmod.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "LivingEntityMixin",
+    "TridentEntityMixin"
+  ],
+  "client": [
     "TitleScreenMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
+  ],
+  "injectors": {
+    "defaultRequire": 1
 	}
 }
